@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Pilotları 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏎️ Formula 1 Pilotları 2025</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Pilot ara... (isim, takım, ülke)">
+        </div>
+
+        <div class="filters">
+            <select id="teamFilter">
+                <option value="">Tüm Takımlar</option>
+            </select>
+            <select id="countryFilter">
+                <option value="">Tüm Ülkeler</option>
+            </select>
+        </div>
+
+        <div id="driversGrid" class="drivers-grid">
+            <!-- Drivers will be loaded here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 F1 Pilotları - Güncel bilgiler</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="driverModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Modal içeriği buraya yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
