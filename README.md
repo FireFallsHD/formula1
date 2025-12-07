@@ -10,25 +10,15 @@ Formula 1 pilotları hakkında güncel bilgiler sunan modern bir web sitesi.
 - 📱 Responsive tasarım (mobil uyumlu)
 - 🎨 Modern ve kullanıcı dostu arayüz
 
-## Kullanım
 
-1. `index.html` dosyasını bir web tarayıcısında açın
-2. Pilotları aramak için üst kısımdaki arama kutusunu kullanın
-3. Filtreler ile takım veya ülke bazında filtreleme yapın
 
 ## Bilgiler
 
-- Güncelleme Tarihi: 7 Aralık 2025
+- Güncelleme Tarihi:2025
 - Toplam Pilot Sayısı: 20
 - Tüm 10 F1 takımından pilotlar dahil
 
-## Teknolojiler
-
-- HTML5
-- CSS3 (Modern CSS Grid ve Flexbox)
-- Vanilla JavaScript
-- Google Fonts (Inter)
 
 ## Notlar
 
-Bu site, 2025 Formula 1 sezonu pilotları hakkında bilgi vermektedir. Veriler 7 Aralık 2025 itibariyle günceldir.
+Bu site, 2025 Formula 1 sezonu pilotları hakkında bilgi vermektedir. 
